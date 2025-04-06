@@ -272,3 +272,38 @@
 
 // getters and setters
 
+// class Person {
+//     private _name: string;
+  
+//     constructor(name: string) {
+//       this._name = name;
+//     }
+  
+//     // Getter: for retrieving the value
+//     get name(): string {
+//       return this._name;
+//     }
+  
+//     // Setter: for setting or modifying the value
+//     set name(newName: string) {
+//       if (newName.trim().length > 0) {
+//         this._name = newName;
+//       } else {
+//         throw new Error("Name cannot be empty!");
+//       }
+//     }
+//   }
+  
+//   const person = new Person("Alice");
+  
+//   // Using the getter
+//   console.log(person.name); // Output: Alice
+  
+//   // Using the setter
+//   person.name = "Bob";
+//   console.log(person.name); // Output: Bob
+  
+//   // If you try to set an empty name
+//   // person.name = ""; // This will throw an error
+  
+
